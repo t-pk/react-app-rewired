@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 /*!
- * This file is necessary to allow usage of react-app-rewired as a drop-in replacement
+ * This file is necessary to allow usage of react-builder as a drop-in replacement
  * for react-scripts with WebStorms's test runner UI.
  *
- * For more information, see https://github.com/timarney/react-app-rewired/issues/182
+ * For more information, see https://github.com/timarney/react-builder/issues/182
  */
 
 const spawn = require('react-dev-utils/crossSpawn');

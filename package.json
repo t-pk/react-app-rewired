@@ -1,15 +1,15 @@
 {
-  "name": "react-app-rewired",
+  "name": "react-builder",
   "version": "2.1.9",
   "description": "Tweak the create-react-app webpack config(s) without using 'eject' and without creating a fork of the react-scripts",
   "private": false,
   "bin": {
-    "react-app-rewired": "./bin/index.js"
+    "react-builder": "./bin/index.js"
   },
   "scripts": {
     "build": "yarn --cwd 'test/react-app' build",
     "clean": "rm -rf node_modules",
-    "setup": "yarn deps && yarn link && yarn --cwd 'test/react-app' link 'react-app-rewired'",
+    "setup": "yarn deps && yarn link && yarn --cwd 'test/react-app' link 'react-builder'",
     "start": "yarn --cwd 'test/react-app' start",
     "teardown": "yarn unlink && yarn clean && yarn --cwd 'test/react-app' clean",
     "test": "yarn --cwd 'test/react-app' test",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timarney/react-app-rewired"
+    "url": "git+https://github.com/timarney/react-builder"
   },
   "license": "MIT",
   "files": [
