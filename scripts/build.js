@@ -16,7 +16,7 @@ require.cache[require.resolve(pathsConfigPath)].exports =
 // CRA 2.1.2 switched to using a webpack config factory
 // https://github.com/facebook/create-react-app/pull/5722
 // https://github.com/facebook/create-react-app/releases/tag/v2.1.2
-const isWebpackFactory = semver.gte(scriptPkg && scriptPkg.version, '2.1.2');
+const isWebpackFactory = semver.gte(scriptPkg && scriptPkg.version, '4.0.3');
 
 const webpackConfigPath = `${scriptVersion}/config/webpack.config${!isWebpackFactory ? '.prod' : ''}`;
 const webpackConfig = require(webpackConfigPath);
