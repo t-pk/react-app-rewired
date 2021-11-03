@@ -1,6 +1,6 @@
 {
   "name": "react-builder",
-  "version": "2.1.9",
+  "version": "0.0.1",
   "description": "Tweak the create-react-app webpack config(s) without using 'eject' and without creating a fork of the react-scripts",
   "private": false,
   "bin": {
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timarney/react-builder"
+    "url": "git+https://github.com/t-pk/react-builder"
   },
   "license": "MIT",
   "files": [
